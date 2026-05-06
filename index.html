@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dheeraj Mandloi — Full Stack Developer</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-ring"></span>
+        <span class="logo-text">DM</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    <a href="./Dheeraj_Resume.pdf" class="resume-btn" target="_blank">
+  <span>Resume</span>
+</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#experience" class="mobile-link">Experience</a>
+      <a href="#certifications" class="mobile-link">Certifications</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-grid"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Open for Internship / Job
+      </div>
+      <div class="hero-location">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Indore, Madhya Pradesh
+      </div>
+      <h1 class="hero-name">
+        <span class="name-line">Dheeraj</span>
+        <span class="name-line accent">Mandloi</span>
+      </h1>
+      <div class="hero-role">
+        <span class="role-prefix">&lt;</span>
+        <span class="typed-text" id="typedText"></span>
+        <span class="cursor-blink">|</span>
+        <span class="role-suffix">/&gt;</span>
+      </div>
+      <p class="hero-tagline">Building scalable web applications using Java &amp; Spring Boot.</p>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          View Projects
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">SB</span>
+          <span class="stat-label">Spring Boot Dev</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">BE</span>
+          <span class="stat-label">Backend Focused</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">☕</span>
+          <span class="stat-label">Java Enthusiast</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-indicator">
+        <div class="scroll-dot"></div>
+      </div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 / About</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I am a <strong>B.Tech Computer Science</strong> student at SVVV University, Indore, passionate about Full Stack and Backend Development. I enjoy building scalable and real-world web applications using Java, Spring Boot, REST APIs, and MySQL.</p>
+          <p>I am continuously improving my problem-solving and development skills by working on practical projects and learning modern technologies. My career goal is to become a skilled Full Stack Developer and contribute to impactful software solutions.</p>
+          <div class="about-tech-list">
+            <span class="tech-chip">Spring Boot</span>
+            <span class="tech-chip">Java</span>
+            <span class="tech-chip">REST APIs</span>
+            <span class="tech-chip">MySQL</span>
+          </div>
+        </div>
+
+        <div class="about-cards">
+          <div class="about-card reveal" style="--delay:0.1s">
+            <div class="about-card-icon">🎓</div>
+            <h3>Education</h3>
+            <p>B.Tech CSE @ SVVV University</p>
+            <span class="about-card-meta">2023 – 2027 · CGPA 6.93</span>
+          </div>
+          <div class="about-card reveal" style="--delay:0.2s">
+            <div class="about-card-icon">🎯</div>
+            <h3>Career Goal</h3>
+            <p>Skilled Full Stack Developer</p>
+            <span class="about-card-meta">Impactful software solutions</span>
+          </div>
+          <div class="about-card reveal" style="--delay:0.3s">
+            <div class="about-card-icon">⚙️</div>
+            <h3>Technologies</h3>
+            <p>Java, Spring Boot, MySQL</p>
+            <span class="about-card-meta">REST APIs · Hibernate · Kafka</span>
+          </div>
+          <div class="about-card reveal" style="--delay:0.4s">
+            <div class="about-card-icon">🔥</div>
+            <h3>Interests</h3>
+            <p>Real-world web apps</p>
+            <span class="about-card-meta">Backend systems · Scalability</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 / Skills</span>
+        <h2 class="section-title">Tech Stack</h2>
+      </div>
+
+      <div class="skills-groups">
+        <div class="skill-group reveal" style="--delay:0.05s">
+          <h3 class="skill-group-title">Languages</h3>
+          <div class="skill-cards">
+            <div class="skill-card"><span class="skill-icon">☕</span><span>Java</span></div>
+            <div class="skill-card"><span class="skill-icon">⚡</span><span>C++</span></div>
+            <div class="skill-card"><span class="skill-icon">🐍</span><span>Python</span></div>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--delay:0.1s">
+          <h3 class="skill-group-title">Frontend</h3>
+          <div class="skill-cards">
+            <div class="skill-card"><span class="skill-icon">🌐</span><span>HTML</span></div>
+            <div class="skill-card"><span class="skill-icon">🎨</span><span>CSS</span></div>
+            <div class="skill-card"><span class="skill-icon">📜</span><span>JavaScript</span></div>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--delay:0.15s">
+          <h3 class="skill-group-title">Backend</h3>
+          <div class="skill-cards">
+            <div class="skill-card highlight"><span class="skill-icon">🚀</span><span>Spring Boot</span></div>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--delay:0.2s">
+          <h3 class="skill-group-title">Database</h3>
+          <div class="skill-cards">
+            <div class="skill-card"><span class="skill-icon">🗄️</span><span>MySQL</span></div>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--delay:0.25s">
+          <h3 class="skill-group-title">Tools</h3>
+          <div class="skill-cards">
+            <div class="skill-card"><span class="skill-icon">🐙</span><span>GitHub</span></div>
+            <div class="skill-card"><span class="skill-icon">📮</span><span>Postman</span></div>
+            <div class="skill-card"><span class="skill-icon">💻</span><span>VS Code</span></div>
+          </div>
+        </div>
+        <div class="skill-group reveal" style="--delay:0.3s">
+          <h3 class="skill-group-title">Concepts</h3>
+          <div class="skill-cards">
+            <div class="skill-card"><span class="skill-icon">🔗</span><span>REST APIs</span></div>
+            <div class="skill-card"><span class="skill-icon">🛢️</span><span>Hibernate</span></div>
+            <div class="skill-card"><span class="skill-icon">📡</span><span>Kafka</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 / Projects</span>
+        <h2 class="section-title">What I've Built</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal featured" style="--delay:0.05s">
+          <div class="project-card-inner">
+            <div class="project-number">01</div>
+            <div class="project-tags">
+              <span class="ptag">Java</span>
+              <span class="ptag">Spring Boot</span>
+              <span class="ptag">YOLO</span>
+              <span class="ptag">MySQL</span>
+            </div>
+            <h3 class="project-title">Post Office Counter Monitoring &amp; Measurement System</h3>
+            <p class="project-desc">Smart monitoring system for post office counters using YOLO-based object detection and Spring Boot backend services. Tracks counter activity, monitors customer flow, and improves operational efficiency through real-time data handling.</p>
+            <div class="project-footer">
+              <div class="project-stack">Java · Spring Boot · Hibernate · MySQL · YOLO</div>
+              <span class="project-private">🔒 Private</span>
+            </div>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+        <div class="project-card reveal" style="--delay:0.1s">
+          <div class="project-card-inner">
+            <div class="project-number">02</div>
+            <div class="project-tags">
+              <span class="ptag">Spring Boot</span>
+              <span class="ptag">Docker</span>
+              <span class="ptag">REST APIs</span>
+            </div>
+            <h3 class="project-title">Hospital Management System</h3>
+            <p class="project-desc">Backend-driven system to manage patient records, doctor details, appointments, and hospital operations. Implemented REST APIs and database integration for smooth data handling.</p>
+            <div class="project-footer">
+              <div class="project-stack">Java · Spring Boot · MySQL · Docker</div>
+              <a href="https://github.com/dheerajmandloi/hospital_management_docker" target="_blank" class="project-link">
+                View on GitHub
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+        <div class="project-card reveal" style="--delay:0.15s">
+          <div class="project-card-inner">
+            <div class="project-number">03</div>
+            <div class="project-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">JavaScript</span>
+            </div>
+            <h3 class="project-title">Portfolio Website</h3>
+            <p class="project-desc">Personal portfolio website to showcase projects, technical skills, certifications, and contact information with a modern responsive UI. Designed for clarity and professional presentation.</p>
+            <div class="project-footer">
+              <div class="project-stack">HTML · CSS · JavaScript</div>
+              <span class="project-wip">🔧 In Progress</span>
+            </div>
+          </div>
+          <div class="project-glow"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section dark-section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04 / Experience</span>
+        <h2 class="section-title">Virtual Experience</h2>
+      </div>
+
+      <div class="exp-card reveal">
+        <div class="exp-left">
+          <div class="exp-logo">JPM</div>
+          <div class="exp-timeline-line"></div>
+        </div>
+        <div class="exp-body">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-title">Software Engineering Job Simulation</h3>
+              <p class="exp-company">JPMorgan Chase &amp; Co. · <em>Forage</em></p>
+            </div>
+            <div class="exp-date">May 2026</div>
+          </div>
+          <p class="exp-desc">Completed JPMorgan Chase &amp; Co. Software Engineering Job Simulation on Forage. Worked on Spring Boot, Kafka, REST APIs, SQL database integration, and backend transaction processing concepts.</p>
+          <div class="exp-skills">
+            <span class="exp-chip">Java</span>
+            <span class="exp-chip">Spring Boot</span>
+            <span class="exp-chip">Kafka</span>
+            <span class="exp-chip">REST APIs</span>
+            <span class="exp-chip">SQL</span>
+          </div>
+          <div class="exp-cred">
+            Credential ID: <code>FvLib5vNiiJqditXp</code>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">05 / Certifications</span>
+        <h2 class="section-title">Credentials</h2>
+      </div>
+
+      <div class="certs-grid">
+        <div class="cert-card reveal" style="--delay:0.05s">
+          <div class="cert-badge">NPTEL</div>
+          <h3>Cloud Computing</h3>
+          <p>National Programme on Technology Enhanced Learning</p>
+          <div class="cert-glow"></div>
+        </div>
+        <div class="cert-card reveal" style="--delay:0.12s">
+          <div class="cert-badge">NPTEL</div>
+          <h3>Soft Computing</h3>
+          <p>National Programme on Technology Enhanced Learning</p>
+          <div class="cert-glow"></div>
+        </div>
+        <div class="cert-card reveal" style="--delay:0.19s">
+          <div class="cert-badge">Infosys</div>
+          <h3>Introduction to Python</h3>
+          <p>Infosys Springboard Learning Platform</p>
+          <div class="cert-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section achievements-section" id="achievements">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">06 / Achievements</span>
+        <h2 class="section-title">Milestones</h2>
+      </div>
+      <div class="achievements-list">
+        <div class="achievement-item reveal" style="--delay:0.05s">
+          <div class="ach-icon">🏗️</div>
+          <p>Built multiple backend and full-stack projects</p>
+        </div>
+        <div class="achievement-item reveal" style="--delay:0.1s">
+          <div class="ach-icon">⚙️</div>
+          <p>Worked on real-world backend systems using Spring Boot</p>
+        </div>
+        <div class="achievement-item reveal" style="--delay:0.15s">
+          <div class="ach-icon">🏦</div>
+          <p>Completed JPMorganChase Software Engineering Simulation</p>
+        </div>
+        <div class="achievement-item reveal" style="--delay:0.2s">
+          <div class="ach-icon">🔗</div>
+          <p>Strong understanding of REST APIs and database integration</p>
+        </div>
+        <div class="achievement-item reveal" style="--delay:0.25s">
+          <div class="ach-icon">📈</div>
+          <p>Passionate about scalable backend application development</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section dark-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">07 / Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-sub reveal">I'm open to internships, collaborations, and exciting opportunities.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-cards">
+          <a href="mailto:dheerajmandloi.2005@gmail.com" class="contact-card reveal" style="--delay:0.05s">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-val">dheerajmandloi.2005@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919399795203" class="contact-card reveal" style="--delay:0.1s">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.6 1.24h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.81a16 16 0 0 0 6 6l.88-.88a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.66 16.92z"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">Phone</span>
+              <span class="contact-val">+91 9399795203</span>
+            </div>
+          </a>
+          <a href="https://github.com/dheerajmandloi" target="_blank" class="contact-card reveal" style="--delay:0.15s">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-val">dheerajmandloi</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/dheeraj-mandloi-635142325/" target="_blank" class="contact-card reveal" style="--delay:0.2s">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-val">dheeraj-mandloi</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="contact-form-box reveal">
+          <h3>Send a Message</h3>
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" placeholder="Your name" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="your@email.com" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="4" placeholder="Write your message..." class="form-input"></textarea>
+          </div>
+          <button class="btn btn-primary form-submit" onclick="handleFormSubmit(event)">
+            Send Message
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">DM</div>
+      <p class="footer-tagline"><span class="mono">// crafting scalable systems, one commit at a time</span></p>
+      <p class="footer-copy">&copy; 2026 Dheeraj Mandloi · Full Stack Developer</p>
+      <div class="footer-links">
+        <a href="https://github.com/dheerajmandloi" target="_blank">GitHub</a>
+        <span>·</span>
+        <a href="https://www.linkedin.com/in/dheeraj-mandloi-635142325/" target="_blank">LinkedIn</a>
+        <span>·</span>
+        <a href="mailto:dheerajmandloi.2005@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
